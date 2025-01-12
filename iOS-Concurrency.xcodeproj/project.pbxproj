@@ -21,6 +21,7 @@
 		A5A5AE952D3223B9008BFEE8 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = A5A5AE942D3223B9008BFEE8 /* users.json */; };
 		A5A5AE972D3226F6008BFEE8 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5AE962D3226F6008BFEE8 /* PostsListView.swift */; };
 		A5A5AE992D322717008BFEE8 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5AE982D322717008BFEE8 /* PostsListViewModel.swift */; };
+		A5A5AE9B2D33AF12008BFEE8 /* UserAndPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5AE9A2D33AF12008BFEE8 /* UserAndPosts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		A5A5AE942D3223B9008BFEE8 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		A5A5AE962D3226F6008BFEE8 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
 		A5A5AE982D322717008BFEE8 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
+		A5A5AE9A2D33AF12008BFEE8 /* UserAndPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				A5A5AE7F2D31D527008BFEE8 /* User.swift */,
 				A5A5AE812D31D5B7008BFEE8 /* Post.swift */,
+				A5A5AE9A2D33AF12008BFEE8 /* UserAndPosts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A5AE9B2D33AF12008BFEE8 /* UserAndPosts.swift in Sources */,
 				A5A5AE722D31D388008BFEE8 /* UserListView.swift in Sources */,
 				A5A5AE892D31F6CF008BFEE8 /* UsersListViewModel.swift in Sources */,
 				A5A5AE972D3226F6008BFEE8 /* PostsListView.swift in Sources */,
